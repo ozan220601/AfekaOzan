@@ -1,0 +1,47 @@
+/* עיצוב גוף הדף - רקע כהה וטקסט בהיר */
+body {
+    direction: rtl;
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* אפור כהה מאוד */
+    color: #e0e0e0; /* אפור בהיר לקריאות נוחה */
+    margin: 20px 50px 20px 50px;
+}
+
+/* כותרות מקבלות צבעים שבולטים על רקע כהה */
+h1 {
+    color: #00ffff; /* תכלת זוהר (ציאן) */
+    text-align: center;
+    text-decoration: underline;
+}
+
+h2 {
+    color: #ffaa00; /* כתום חי */
+}
+
+/* עיצוב קישורים - חובה לשנות כי כחול רגיל לא קריא על רקע שחור */
+a:link { color: #66ccff; text-decoration: none; } /* תכלת בהיר לקישור רגיל */
+a:visited { color: #cc99ff; text-decoration: none; } /* סגול בהיר לקישור שכבר ביקרנו בו */
+a:hover { color: #ff4444; text-decoration: underline; } /* אדום כשעוברים עם העכבר */
+a:active { color: #ffff00; text-decoration: underline; } /* צהוב בעת הלחיצה עצמה */
+
+/* רשימות */
+ul {
+    list-style-type: square;
+    font-size: large;
+}
+
+/* טבלאות - רקע טיפה יותר בהיר מהרקע הכללי כדי לייצר הפרדה (קונטרסט) */
+table {
+    background-color: #2a2a2a; /* אפור מעט בהיר יותר מהגוף */
+    border: solid 3px #555555; /* מסגרת אפורה עדינה */
+}
+
+td {
+    padding: 15px;
+    vertical-align: top;
+}
+
+/* מסגרת עדינה סביב התמונות בדפים הפנימיים */
+.site-image {
+    border: solid 2px #888888;
+}
